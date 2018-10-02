@@ -29,8 +29,13 @@ todos.forEach(function(todo) {
   document.querySelector('body').appendChild(p)
 })
 
+document.querySelector('#add-note').addEventListener('click', function(e) {
+  console.log('It works!')
+})
 
-
+document.querySelector('#add-text').addEventListener('input', function(e) {
+  console.log(e.target.value)
+})
 
 
 
