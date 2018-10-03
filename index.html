@@ -8,8 +8,15 @@
 </head>
 <body>
   <h1>Take Note App</h1>
-  <input id="add-text" type="text" placeholder="Your note">
-  <button id="add-note">Add note</button>
+  <input type="text" id="search-text" placeholder="Filter notes">
+  <label>
+    <input type="checkbox" id="hide-completed">Hide completed
+  </label>
+  <div id="todos"></div>
+  <form action="" id="new-todo-form">
+    <input type="text" placeholder="Add todo" name="addTodo">
+    <button>Add note</button>
+  </form>
   <script src="app.js"></script>
 </body>
 </html>
